@@ -45,7 +45,7 @@ Prolly better do it by feature.
 Kinda overwhelming. Rewatch this module when everything is ready for production.
 
 ### Production Deploy
-In the Pluralsight course, Cory recommends hosting the front end and the back end separately. I will have to look more into that, I think it's a great idea.
+In the Pluralsight course, Cory recommends hosting the front end and the back end separately. I will have to look more into that, but I think it's a great idea. It seems like it's possible to host my front end on <a href="https://www.npmjs.com/package/surge">Surge</a> and my backend on <a href="https://www.heroku.com/">Heroku</a>. Then I can configure my DNS (on <a href="https://domains.google.com">Google Domains</a> or wherever I buy my domain) to point my-domain.com/api/ to the Heroku server and to point my-domain/ to Surge.
 
 ## TODO
 * Configure Webpack
