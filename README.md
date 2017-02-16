@@ -39,13 +39,13 @@ This is low on the priority list, but it could be cool to integrate with <a href
 <a href="https://angular.io/">Angular</a>.
 
 ### Project Structure
-Prolly better do it by feature.
+If I am going to split the app into front end and backend, I think it would be good to separate them in to a client/ and a server/ directory, and then inside each of those separate code by feature.
 
 ### Production Build
 Kinda overwhelming. Rewatch this module when everything is ready for production.
 
 ### Production Deploy
-In the Pluralsight course, Cory recommends hosting the front end and the back end separately. I will have to look more into that, but I think it's a great idea. It seems like it's possible to host my front end on <a href="https://www.npmjs.com/package/surge">Surge</a> and my backend on <a href="https://www.heroku.com/">Heroku</a>. Then I can configure my DNS (on <a href="https://domains.google.com">Google Domains</a> or wherever I buy my domain) to point my-domain.com/api/ to the Heroku server and to point my-domain/ to Surge.
+In the Pluralsight course, Cory recommends hosting the front end and the back end separately. I will have to look more into that, but I think it's a great idea. It seems like it's possible to host my front end on <a href="https://www.npmjs.com/package/surge">Surge</a> and my backend on <a href="https://www.heroku.com/">Heroku</a>. Then I can configure my DNS (on <a href="https://domains.google.com">Google Domains</a> or wherever I buy my domain) to point my-domain.com/api/ to the Heroku server and to point my-domain/ to Surge. This would remove the necessity of using <a href="https://github.com/expressjs/cors">CORS</a>.
 
 ## TODO
 * Configure Webpack
